@@ -213,7 +213,7 @@ var units = {
     'quart':      [/quarts?\b|qt\b\.?/,                          'ml', 4 * cup_ml  ],
     'gallon':     [/gallons?\b/,                                 'ml', gallon_ml   ],
     'stick':      [/sticks?\b(?!\s+cinnamon)/,                   'g' , pound_g / 4 ],
-    'tablespoon': [/[Tt]ablespoons?\b|(T|tb|[Tt]bsp?|TBL|TBSP)\b\.?/, 'ml', tbsp_ml     ],
+    'tablespoon': [/[Tt]ablespoons?\b|(?i)(T|tb|[Tt]bsp?|TBL|TBSP)\b\.?/, 'ml', tbsp_ml     ],
     'teaspoon':   [/[Tt]easpoons?\b|(t|tsp?|TSP)\b\.?/,           'ml', tbsp_ml / 3 ]
 };
 
